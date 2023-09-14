@@ -1,4 +1,4 @@
-# braketester-smart-contract
+# fabpki-smart-contract
 
 We adopt [Hyperledger Fabric 2.2 LTS](https://hyperledger-fabric.readthedocs.io/en/release-2.2/) as our blockchain platform. We configure a globally distributed blockchain network that supports the execution of Golang chaincodes.
 
@@ -79,7 +79,7 @@ By default, we associate *cli* with the *peer0* of the respective organization. 
 A example of this command is:
 
 ```console
-./start.sh deployCC -ccn braketester -ccp braketester -ccl go
+./start.sh deployCC -ccn fabpki -ccp fabpki -ccl go
 ```
 
 This command will do all you need to invoke the chaincode.
